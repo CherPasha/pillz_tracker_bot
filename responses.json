@@ -1,0 +1,20 @@
+{
+    "start_command": "Hi {user_mention}!\n\nI am your personal assistant for tracking medications and building habits.\n\nUse the buttons below to interact with me. To add a new pill, just press /addpill and describe your prescription.",
+    "addpill_initial": "Please describe the pill or habit you want to add.\n\nFor example: 'Cipralex starting tomorrow for 10 days, 1 tablet at 9am, then for 20 days 1.5 tablets at 9am'",
+    "analyzing_text": "🧠 Analyzing... Please wait.",
+    "parse_error": "I'm sorry, I couldn't understand that. Could you please try rephrasing?",
+    "confirmation_prompt": "I understood the following. Please check carefully:\n\n{schedule_text}\nIs this correct?",
+    "correction_prompt": "I see. Please tell me what I got wrong or what needs to be changed.",
+    "save_success": "Great! I've saved: {pill_names}",
+    "save_error": "Something went wrong. No pill data to save.",
+    "action_cancelled": "Action cancelled.",
+    "no_reminders_show": "You have no reminders set up. Use /addpill to create one!",
+    "showpills_header": "Here are your current reminders:\n\n",
+    "no_reminders_today": "You have no pills or habits scheduled for today.",
+    "todaypills_header": "Here is your schedule for today:\n\n",
+    "no_reminders_change": "You have no reminders to change or remove.",
+    "changepill_prompt": "Please choose which reminder you'd like to remove.",
+    "delete_success": "Successfully removed '{choice}'.",
+    "delete_error": "I couldn't find that item. Please try /changepill again.",
+    "generic_error": "I'm sorry, an error occurred. The developer has been notified. Please try again."
+}
