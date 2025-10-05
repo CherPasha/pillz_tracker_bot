@@ -1,3 +1,11 @@
+# Environment variables
 .env
+
+# SQLite Database
 *.db
+*.db-journal*
+
+# Python virtual environment
+venv/
 __pycache__/
+*.pyc
